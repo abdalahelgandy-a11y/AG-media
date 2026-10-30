@@ -1,0 +1,264 @@
+{
+  "settings": {
+    "agencyName": "AG-media",
+    "agencyFullName": "وكالة AG-media للإنتاج الرقمي والتسويق",
+    "tagline": "we create your thinking",
+    "currency": "EGP",
+    "currencySymbol": "ج.م",
+    "phone": "+20 100 234 5678",
+    "email": "contact@agmedia.agency",
+    "website": "www.agmedia.agency",
+    "address": "القاهرة، جمهورية مصر العربية",
+    "paymentMethods": [
+      {
+        "id": "pm_1",
+        "name": "فودافون كاش (Vodafone Cash)",
+        "type": "wallet",
+        "details": "01002345678",
+        "accountHolder": "وكالة AG-media",
+        "instructions": "",
+        "isActive": false
+      },
+      {
+        "id": "pm_2",
+        "name": "إنستاباي (InstaPay)",
+        "type": "instapay",
+        "details": "01205512323",
+        "accountHolder": "عبدالله السيد احمد",
+        "instructions": "برجاء ارسال ايصال التحويل بعد الارسال",
+        "isActive": true
+      },
+      {
+        "id": "pm_3",
+        "name": "تحويل بنكي - البنك الأهلي المصري",
+        "type": "bank",
+        "details": "IBAN: EG4500030000012345678901234",
+        "accountHolder": "وكالة AG-media",
+        "instructions": "",
+        "isActive": false
+      },
+      {
+        "id": "pm_4",
+        "name": "تحويل بنكي - بنك CIB",
+        "type": "bank",
+        "details": "حساب رقم: 10005432198",
+        "accountHolder": "وكالة AG-media",
+        "instructions": "",
+        "isActive": false
+      },
+      {
+        "id": "pm_5",
+        "name": "دفع نقدي (Cash)",
+        "type": "cash",
+        "details": "استلام بمقر الشركة أو عبر مندوب",
+        "accountHolder": "وكالة AG-media",
+        "instructions": "",
+        "isActive": false
+      }
+    ],
+    "invoiceFooterNote": "شكراً لثقتكم في AG-media - we create your thinking. نلتزم بتقديم أعلى معايير الجودة والإبداع في عالم الميديا والإعلانات.",
+    "servicesTagline": "تصميم جرافيك • مونتاج وتصوير • موشن جرافيك • فيديوهات AI • إعلانات ممولة",
+    "logoUrl": "/logo.png",
+    "primaryColor": "#134C5C"
+  },
+  "clients": [
+    {
+      "id": "cli_1792934796877",
+      "name": "مركز الحويج للاشعه",
+      "companyName": "",
+      "phone": "",
+      "email": "",
+      "acquisitionChannel": "ترشيح من عميل سابق (Referral)",
+      "startDate": "2026-10-25",
+      "contractValue": 2200,
+      "contractType": "monthly",
+      "monthlyRetainerFee": 2200,
+      "billingDay": 1,
+      "status": "نشط",
+      "subscriptionStatus": "active",
+      "notes": "8 تصميمات او 4 ريلز",
+      "servicesAgreed": [
+        "تصميم جرافيك"
+      ],
+      "serviceQuantities": [
+        {
+          "serviceType": "تصميم جرافيك",
+          "quantityTotal": 8,
+          "unit": "تصميم",
+          "title": "تصاميم وبوستات السوشيال ميديا",
+          "notes": ""
+        }
+      ],
+      "monthlyPackage": [
+        {
+          "serviceType": "تصميم جرافيك",
+          "quantityTotal": 8,
+          "unit": "تصميم",
+          "title": "تصاميم وبوستات السوشيال ميديا",
+          "notes": ""
+        }
+      ],
+      "monthlyCycles": [],
+      "createdAt": "2026-10-25T13:26:36.877Z"
+    },
+    {
+      "id": "cli_1792934739526",
+      "name": "مستشفى النور",
+      "companyName": "",
+      "phone": "",
+      "email": "",
+      "acquisitionChannel": "ترشيح من عميل سابق (Referral)",
+      "startDate": "2026-10-25",
+      "contractValue": 3600,
+      "contractType": "monthly",
+      "monthlyRetainerFee": 3600,
+      "billingDay": 1,
+      "status": "نشط",
+      "subscriptionStatus": "active",
+      "notes": "12 تصميم\nاو 6 فيديوهات",
+      "servicesAgreed": [
+        "تصميم جرافيك"
+      ],
+      "serviceQuantities": [
+        {
+          "serviceType": "تصميم جرافيك",
+          "quantityTotal": 12,
+          "unit": "تصميم",
+          "title": "تصاميم وبوستات السوشيال ميديا",
+          "notes": ""
+        }
+      ],
+      "monthlyPackage": [
+        {
+          "serviceType": "تصميم جرافيك",
+          "quantityTotal": 12,
+          "unit": "تصميم",
+          "title": "تصاميم وبوستات السوشيال ميديا",
+          "notes": ""
+        }
+      ],
+      "monthlyCycles": [],
+      "createdAt": "2026-10-25T13:25:39.526Z"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "del_1792935425394",
+      "clientId": "cli_1792934739526",
+      "serviceType": "انشاء الاعلانات المموله",
+      "title": "570 ج قيمة الاعلان شامل الضريبه",
+      "description": "",
+      "quantityTotal": 1,
+      "quantityCompleted": 0,
+      "status": "لم يبدأ",
+      "unit": "حملة",
+      "dueDate": "2026-10-01",
+      "notes": "",
+      "createdAt": "2026-10-25T13:37:05.394Z"
+    },
+    {
+      "id": "del_1792934796877_6acd",
+      "clientId": "cli_1792934796877",
+      "serviceType": "تصميم جرافيك",
+      "title": "تصاميم وبوستات السوشيال ميديا",
+      "description": "مخرجات تصميم جرافيك المتفق عليها مع العميل",
+      "quantityTotal": 8,
+      "quantityCompleted": 3,
+      "status": "قيد التنفيذ",
+      "unit": "تصميم",
+      "dueDate": "2026-10-25",
+      "notes": "",
+      "createdAt": "2026-10-25T13:26:36.877Z",
+      "updatedAt": "2026-10-25T13:35:12.481Z"
+    },
+    {
+      "id": "del_1792934739526_mhrd",
+      "clientId": "cli_1792934739526",
+      "serviceType": "تصميم جرافيك",
+      "title": "تصاميم وبوستات السوشيال ميديا",
+      "description": "مخرجات تصميم جرافيك المتفق عليها مع العميل",
+      "quantityTotal": 12,
+      "quantityCompleted": 12,
+      "status": "تم التسليم",
+      "unit": "تصميم",
+      "dueDate": "2026-10-25",
+      "notes": "",
+      "createdAt": "2026-10-25T13:25:39.526Z",
+      "updatedAt": "2026-10-25T13:35:37.393Z"
+    }
+  ],
+  "invoices": [],
+  "payments": [],
+  "servicesCatalog": [
+    {
+      "id": "srv_1",
+      "name": "تصميم جرافيك",
+      "category": "Design",
+      "icon": "Palette",
+      "description": "تصميم هويات بصرية كاملة، منشورات سوشيال ميديا إبداعية، بنرات إعلانية، مطبوعات وفلايرات.",
+      "defaultUnitPrice": 500,
+      "unit": "تصميم"
+    },
+    {
+      "id": "srv_2",
+      "name": "مونتاج فيديوهات وتصويرها",
+      "category": "Video",
+      "icon": "Video",
+      "description": "تصوير ميداني بجودة سينمائية 4K، تصوير منتجات وبودكاست، مونتاج احترافي للريلز وتيك توك ويوتيوب.",
+      "defaultUnitPrice": 2500,
+      "unit": "فيديو"
+    },
+    {
+      "id": "srv_3",
+      "name": "عمل فيديوهات موشن جرافيك",
+      "category": "Motion",
+      "icon": "Sparkles",
+      "description": "فيديوهات موشن جرافيك توضيحية ثلاثية وثنائية الأبعاد، إعلانات ترويجية للشركات والتطبيقات، إنترو واحترافية عالية.",
+      "defaultUnitPrice": 7500,
+      "unit": "فيديو"
+    },
+    {
+      "id": "srv_4",
+      "name": "عمل فيديوهات ai",
+      "category": "AI",
+      "icon": "Cpu",
+      "description": "إنتاج فيديوهات تسويقية بالذكاء الاصطناعي، أفاتار ذكي ناطق، محاكاة صوتية متطورة، ومؤثرات بصرية سينمائية AI.",
+      "defaultUnitPrice": 2000,
+      "unit": "فيديو AI"
+    },
+    {
+      "id": "srv_5",
+      "name": "انشاء الاعلانات المموله",
+      "category": "Marketing",
+      "icon": "TrendingUp",
+      "description": "إدارة وإطلاق الحملات الإعلانية الممولة على فيسبوك، إنستجرام، تيك توك، جوجل، وسناب شات مع تتبع المبيعات والليدز.",
+      "defaultUnitPrice": 10000,
+      "unit": "حملة شهرية"
+    }
+  ],
+  "acquisitionChannelsList": [
+    "إعلانات ممولة (Facebook / Instagram)",
+    "إعلانات تيك توك (TikTok Ads)",
+    "إعلانات جوجل وسناب شات",
+    "ترشيح من عميل سابق (Referral)",
+    "تواصل مباشر عبر واتساب",
+    "معرض الأعمال (Behance / Portfolio)",
+    "بحث جوجل / الموقع الإلكتروني",
+    "تواصل بارد (Cold Outreach / LinkedIn)",
+    "أخرى"
+  ],
+  "quotations": [],
+  "proposals": [],
+  "treasuryTransactions": [],
+  "users": [
+    {
+      "id": "usr_admin",
+      "email": "admin@agmedia",
+      "password": "123",
+      "name": "إدارة AG-media",
+      "role": "admin",
+      "createdAt": "2026-10-24T18:36:57.036Z",
+      "updatedAt": "2026-10-24T20:00:04.890Z"
+    }
+  ]
+}

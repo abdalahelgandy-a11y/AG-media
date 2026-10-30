@@ -1,0 +1,26 @@
+{
+  "short_name": "AG-media",
+  "name": "وكالة AG-media للإنتاج والتسويق",
+  "description": "AG-media CRM - نظام إدارة العملاء والإنتاج والمخرجات والفواتير",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#134C5C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "ar"
+}

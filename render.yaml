@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: agmedia-crm
+    env: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://abdalahelgandy_db_user:01205512323@cluster0.pn4ox09.mongodb.net/?retryWrites=true&w=majority
+      - key: MONGODB_DB_NAME
+        value: agmedia_crm
